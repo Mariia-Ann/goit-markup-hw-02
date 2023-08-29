@@ -1,0 +1,149 @@
+:root {
+  --color-brand: #4d5ae5;
+  --color-primary: #2e2f42;
+  --color-slate: #434455;
+  --color-white: #fff;
+  --color-cloud: #f4f4fd;
+  --color-put: #404bbf;
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--color-brand);
+}
+.link-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1.16;
+}
+.header-item {
+  line-height: 1.5;
+  font-weight: 500;
+}
+.header-item:hover,
+.header-item:focus {
+  color: var(--color-put);
+}
+.contacts {
+}
+.contacts-item {
+  color: var(--color-slate);
+  font-style: normal;
+  line-height: 1.5;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--color-put);
+}
+
+.hero-section {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.07;
+}
+.hero-button {
+  background-color: var(--color-brand);
+  color: var(--color-white);
+  border: 0;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 4px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-put);
+}
+/* Section 2 */
+
+.advantages-title {
+  display: none;
+}
+.advantages-list > p {
+  color: var(--color-slate);
+}
+.advantages-item {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.advantages-text {
+  line-height: 1.5;
+}
+
+/* Section 3 */
+.team-section {
+  background-color: var(--color-cloud);
+}
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+}
+.team-list > p {
+  color: var(--color-slate);
+}
+.team-item {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.team-text {
+  line-height: 1.5;
+}
+/* Portfolio */
+
+.portfolio-section {
+}
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+}
+.portfolio-item {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.portfolio-text {
+  color: var(--color-slate);
+  line-height: 1.5;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--color-primary);
+  color: var(--color-cloud);
+}
+
+.footer-logo {
+  color: var(--color-cloud);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.footer-text {
+  line-height: 1.5;
+}
